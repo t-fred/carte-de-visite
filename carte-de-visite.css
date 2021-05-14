@@ -1,0 +1,87 @@
+.contenu {
+    background-color: #cae2f5;
+    font-family: 'RaigenBlues';
+    color: rgba(0, 17, 255, 0.664)
+}
+
+@font-face {
+    font-family: 'RaigenBlues';
+    src: url('police/RaigenBlues.ttf');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 3px rgb(13, 13, 14) solid;
+}
+
+h1 {
+    font-size:8em;
+    padding: 60px;    
+}
+
+.moi {
+    width: 20%;
+    padding: 10px;
+}
+
+.bloc-principal {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.pqSimplon {
+    border: 3px rgb(13, 13, 14) solid;
+    width: 50%;
+    padding: 40px;
+}
+
+.simplon {
+    width: 100%;
+    height: auto;
+}
+
+li {
+    font-size: 1.8em; 
+    padding-top: 25px;   
+}
+
+h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.codeur {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border: 3px rgb(13, 13, 14) solid;
+}
+
+.profil {
+    align-items: center;
+}
+
+.contact {
+    align-items: center;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.lien {
+    margin-right: 10px;
+}
+
+.github {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
